@@ -1,0 +1,153 @@
+<html>
+<head>
+	<!-- Ini adalah judul -->
+	<title>HTML :D</title>
+	<link rel="icon" type="image/x-icon" href="Logo Kab Sleman (1).png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Ini adalah h1 -->
+	<h1><i><center>Aku suka HTML :D</center></i></h1>
+	<hr>
+	<!-- Ini semua yang dibawah adalah isi -->
+	<ul><li><h2>Perkenalan</h2></li>
+	<p>Aku <b>Tyo</b> dan aku suka banget sama <u>HTML</u>.<br> Apalagi <u>javascript</u>  :D <br><br>Aku sekolah di</p>
+	<div style="display: flex; align-items: center; gap: 15px;"><a class="web" target="_blank" type="button" onclick="window.location.href='https://smpn4depok.sch.id/'" value="Cek Website" ><img src="Logo SMPN 4 Depok.png" alt="" width="200" ></a>
+	<h2><-- KLIK INI</h2></div>
+	<h1 style="color: whitesmoke; font-size: 27px;  "><a target="_blank" href='https://smpn4depok.sch.id/'>SMPN 4 DEPOK</a></h1>
+	<br>
+	<p>karena....</p>
+	<ol type="1">
+		<li>gurunya asik bangett..</li>
+		<li>pelajarannya jelas, gampang dipahami</li>
+		<li>jajanannya enak</li>
+	</ol>
+
+	</ul>
+	<hr>
+	<ul><li><h2>Sekolah</h2></li>
+	<p>Berikut adalah lingkungan sekolahnya :)</p>
+	</ul>
+	<img src="Halaman depan SMPN 4 Depok.jpg" alt="Halaman depan SMPN 4 Depok" width="900">
+	<br>	
+	<img src="pintu depan.jpg" alt="pintu depan" width="900">
+	<ul><p>bagus bukan??   jangan lupa masuk <b>SMPN 4 Depok</b> yaa...</p>
+	
+<div class="toggle-row">
+  <input type="button" value="SIAP!" id="toggleBtn" />
+  <input type="button" value="tidak :<" id="toggleBtn2" />
+</div>
+<div class="toggle-msg">
+  <h3 class="Hmm">Keren kamu!</h3>
+  <h3 class="Hmm2">Parah kamu, Kamu masuk sini lah...</h3>
+</div>
+	<br><a><b>cadangan:</a><br>
+	<input target="_blank" type="button" onclick="window.location.href='https://smpn4depok.sch.id/'" value="Cek Website"  /><br><br>
+	
+	<table border="2">
+		<tr>
+			<th>No.</th>
+			<th>Nama</th>
+			<th>kelas</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>ambatukam</td>
+			<td>7f</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>ambasing</td>
+			<td>7f</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>ambatubas</td>
+			<td>7f</td>
+		</tr>
+	</table>
+	<br>
+	<table border="2">
+<tr>
+	<td colspan="2" style="background-color: aqua;">1,1</td>
+	<td rowspan="2">1,3</td>
+</tr>
+<tr>
+	<td rowspan="2">2,1</td>
+	<td>2,2</td>
+
+</tr>
+<tr>
+	<td colspan="2">3,2</td>
+</tr>
+</table><br>
+	<table border="2">
+<tr>
+	<td colspan="2" rowspan="2">1,1</td>
+	<td>1,3</td>
+	<td>1,4</td>
+</tr>
+<tr>
+	<td>2,3</td>
+	<td>2,4</td>
+</tr>
+<tr>
+	<td>3,1</td>
+	<td>3,2</td>
+	<td rowspan="2" colspan="2">3,3</td>
+</tr>
+<tr>
+	<td>4,1</td>
+	<td>4,2</td>
+</tr>
+</table>
+</ul>
+<br>
+<form action="">
+	<label for="nama">Nama Lengkap</label>
+	<input type="text" name="" id="nama"><br>
+	<label for="password">Password</label>
+	<input type="password" name="" id="password"><br>
+	<label for="email">Email</label>
+	<input type="email" name="" id="email"><br>
+	<label for="tanggal lahir">Tanggal Lahir</label>
+	<input type="date" name="" id="tanggal lahir"><br>
+	<label for="jenis kelamin">Jenis Kelamin</label>
+	<input type="radio" name="amba" id="laki-laki" value="laki-laki">Laki-laki
+	<input type="radio" name="amba" id="perempuan" value="perempuan">Perempuan<br>
+</form>
+
+
+</body>
+
+<script>
+
+const hmm = document.querySelector('h3.Hmm');
+const hmm2 = document.querySelector('h3.Hmm2');
+const btn1 = document.getElementById('toggleBtn');
+const btn2 = document.getElementById('toggleBtn2');
+
+btn1.onclick = function() {
+  if (hmm.style.display === 'none' || hmm.style.display === '') {
+    hmm.style.display = 'block';
+    hmm2.style.display = 'none';
+  } else {
+    hmm.style.display = 'none';
+  }
+};
+
+btn2.onclick = function() {
+  if (hmm2.style.display === 'none' || hmm2.style.display === '') {
+    hmm2.style.display = 'block';
+    hmm.style.display = 'none';
+  } else {
+    hmm2.style.display = 'none';
+  }
+};
+
+// Hide both on page load
+hmm.style.display = 'none';
+hmm2.style.display = 'none';
+
+</script>
+</html>

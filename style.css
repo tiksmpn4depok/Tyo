@@ -1,0 +1,51 @@
+body{
+    /* background-color: khaki; */
+    background-image: url(images\ \(2\).jpg);
+    /* background-repeat:repeat; */
+    background-attachment: fixed;
+}
+
+h1{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+input{
+    background-color: khaki;;
+}
+
+.toggle-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.toggle-msg {
+  margin-top: 10px;
+}
+.Hmm, .Hmm2 {
+  display: none;
+}
+
+ul {
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+table {
+    background-color: khaki;
+}
+
+form {
+    background-color: khaki;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+a {
+    color: gainsboro;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}

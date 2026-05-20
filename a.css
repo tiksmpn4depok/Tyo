@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+.p1{
+    text-align: justify;
+    text-indent: 2cm;
+}
+.p2{
+    text-align: right;
+    color: red;
+    text-decoration: underline wavy blue;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+.dec1{
+    text-decoration: underline dotted green;
+}
+.TINO{
+    font-weight: bold;
+    background-color: yellow;
+}
